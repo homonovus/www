@@ -1,0 +1,35 @@
+body {
+    padding: 0; margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+div.header {
+    background-color: red;
+    width: 99.9%;
+    height: 7.25%;
+}
+
+div.button.header {
+    background-color: black;
+    width:20%; height: 100%;
+    float: left;
+}
+
+div.button.header a {
+    background-color: rgb(40, 40, 40);
+    height:100%; width:100%;
+    display: flex; align-items: center; justify-content: center;
+    color: white;
+    text-decoration: none; font-weight: bold;
+    margin: 1px;
+}
+
+div.content {
+    background-color:rgb(24, 24, 24);
+    height:100%; width:100%;
+}
+
+h1 {
+    margin: 0;
+}
